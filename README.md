@@ -8,7 +8,7 @@ This is an example program demonstrating BLE connectivity between a peripheral r
 The peripheral has the following service and characteristics UUID:
 * Service uuid: 4fafc2011fb5459e8fccc5c9c331914b
 * Characteristic uuid: beb5483e36e14688b7f5ea07361b26a8
-- This charactesristica could be writ / read / notify. The value notified is the incremental number between 1 and 255 that is increased each second.
+- This charactesristica could be Write / Read / Notify. The value notified is the incremental number between 1 and 255 that is increased each second.
 
 To run the peripheral example:
     node peripheral
