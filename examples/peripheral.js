@@ -14,7 +14,7 @@ var CustomService = require('./custom-service');
 //
 // A name to advertise our Service.
 //
-var nameCustom = 'HALL ESP32';
+var nameCustom = 'POC Peripheral';
 var customService = new CustomService();
 
 //

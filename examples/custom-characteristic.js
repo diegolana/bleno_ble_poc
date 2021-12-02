@@ -54,7 +54,7 @@ var i = 0;
 var tid = setTimeout(repeatCall, 1000);
 function repeatCall() {
   i++;
-  if (i > 250) i = 0;
+  if (i > 254) i = 0;
   console.log('loop...',i);
   var data = Buffer.alloc(1);
   data.writeUInt8(i, 0);
@@ -63,7 +63,7 @@ function repeatCall() {
       localUpdateValueCallback(data);
   }
 
-  tid = setTimeout(repeatCall, 1000); // repeat myself
+  tid = setTimeout(repeatCall, 300); // repeat myself
 }
 
 function abortTimer() { // to be called when you want to stop the timer
